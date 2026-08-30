@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local video sources and review media
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.exr
+*.dpx
+*.jpg
+*.jpeg
+*.png
+
+# Generated analysis outputs
+scratch_*/
+frame_alignment_reports*/
+frame_compare_*.csv
+contact_*.jpg
+*.alignment.csv
+*.summary.json
+*.report.md
+*.TimeOffset.nk
+*.TimeOffset.json
+nuke_timeoffset_auto_*.nk
+nuke_timeoffset_auto_*.json
+nuke_timeoffset_manual_*.nk
+nuke_timeoffset_manual_*.json
+
+# Local backups
+py_backup_*/

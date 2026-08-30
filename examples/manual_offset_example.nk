@@ -1,0 +1,9 @@
+set cut_paste_input [stack 0]
+version 15.1 v3
+push $cut_paste_input
+TimeOffset {
+ time_offset {{curve x1 -1 x60 -1 x61 0}}
+ time ""
+ name TimeOffset_manual_example
+ selected true
+}

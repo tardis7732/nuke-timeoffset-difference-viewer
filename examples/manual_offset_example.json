@@ -1,0 +1,29 @@
+{
+  "mode": "manual",
+  "frame_start": 1,
+  "segments": [
+    [
+      1,
+      -1
+    ],
+    [
+      61,
+      0
+    ]
+  ],
+  "expanded_keys": [
+    [
+      1,
+      -1
+    ],
+    [
+      60,
+      -1
+    ],
+    [
+      61,
+      0
+    ]
+  ],
+  "curve": "{{curve x1 -1 x60 -1 x61 0}}"
+}
