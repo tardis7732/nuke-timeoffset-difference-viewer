@@ -15,6 +15,9 @@ venv/
 *.jpg
 *.jpeg
 *.png
+!docs/
+!docs/images/
+!docs/images/*.png
 
 # Generated analysis outputs
 scratch_*/

@@ -2,6 +2,8 @@
 
 프레임 단위 영상 offset을 눈으로 확인하고, 확인된 값을 Nuke `TimeOffset` 노드로 바로 내보내기 위한 툴입니다.
 
+![Video Difference TimeOffset Builder GUI](docs/images/gui-screenshot.png)
+
 ## 문제
 
 Seedream 2.0 계열 영상은 전체가 1프레임씩 밀리거나, 특정 구간에서만 offset이 생기는 경우가 자주 발생합니다. 이 문제는 단순 timestamp만으로 판단하기 어렵고, Nuke에서 `TimeOffset` curve를 수동으로 작성하다 보면 offset 부호나 frame-start 기준을 잘못 넣기 쉽습니다.
